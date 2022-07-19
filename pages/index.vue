@@ -4,7 +4,7 @@
 
     <b-container class="mt-5">
 
-    <Leaflet></Leaflet>
+      <Leaflet></Leaflet>
 
     </b-container>
   </div>
@@ -12,6 +12,7 @@
 <script>
 import Leaflet from '../components/Leaflet.vue';
 import Navbar from '../components/Navbar.vue';
+
 export default {
     mounted() {
     },

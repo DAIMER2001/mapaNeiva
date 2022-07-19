@@ -14,9 +14,14 @@
         </div>
 
       </b-card>
+
+      <button class="btn btn-red" @click="modificarMarcadores"> MODIFICAR MARCADORES</button>
+
+      {{marcadores}}
   </div>
 </template>
 <script>
+
 export default {
     data()  {
         return {
@@ -28,6 +33,15 @@ export default {
     },
   mounted() {
     
+    
+  },
+  methods: {
+      modificarMarcadores() {
+        this.marcadores = [
+                    [2.9251111,-75.2944444],
+                    [2.9270222,-75.2850000],
+            ]
+      }
   }
 };
 </script>
