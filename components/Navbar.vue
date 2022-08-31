@@ -2,7 +2,7 @@
 <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">
-      <img  src="@/assets/images/imagen_neiva.jpg" width="150" height="50"/></b-navbar-brand>
+      <img  src="@/assets/images/imagen_neiva.jpg" width="350" height="80"/></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>

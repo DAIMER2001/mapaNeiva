@@ -2,11 +2,7 @@
   <div>
     <Navbar></Navbar>
 
-    <b-container class="mt-5">
-
-      <Leaflet></Leaflet>
-
-    </b-container>
+    <Leaflet></Leaflet>
   </div>
 </template>
 <script>
